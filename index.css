@@ -1,0 +1,28 @@
+.navbar {
+    color: rgb(110, 192, 102);
+}
+
+.container-fluid {
+background-color: aquamarine;
+height: 75px;
+}
+
+body {
+
+    background-image: url("Assets/ecopetit.cat-fall-colors-wallpaper-2814732\ \(1\).png") }
+
+h1,h2 {
+color: burlywood;
+text-align: center;
+font-family: 'Permanent Marker', cursive;
+height: 50px;
+}
+
+.card body {
+    color: rgb(168, 164, 164);
+}
+    
+
+}
+@media (orientation: portrait) and (max-width: 1000px)
+
