@@ -50,7 +50,7 @@
 
       </section>
       <section class="col-sm-4"  >
-        <section class="card" style="background-color: cyan; margin-top: 40px; height: 350px;">
+        <section class="card" style="background-color: aquamarine; margin-top: 40px; height: 350px;">
         <form>
           <section class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
@@ -66,14 +66,11 @@
               <option>5. you strongley disliked my page.</option>
             </select>
             <section class="form-group">
-              <label for="exampleFormControlSelect2">Thoughts</label>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-              </select>
+              <form action="/form/submit" method="POST">
+                <textarea class="comment"style="margin-top: 15px; width: 350px; height: 125px; word-wrap: break-word; border-color: grey; border 20px">Type your comment here.</textarea>
+                <br>
+                <input type="submit" name="submit" value="Send">
+              </form>
             </section>
             </form>
           </section>
